@@ -9,3 +9,8 @@
 
 ```cd ~/.vim/bundle/YouCompleteMe```
 ```./install.py --js-completer```
+
+
+### Install plugins
+
+`:PlugInstall`
