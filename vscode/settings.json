@@ -1,11 +1,10 @@
 {
     "python.pythonPath": "/usr/local/bin/python3",
-    "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": false,
     "editor.fontSize": 15,
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.iconTheme": "vscode-icons",
     "prettier.eslintIntegration": true,
     "editor.formatOnSave": true,
     "[html]": {
@@ -26,7 +25,10 @@
     "git.confirmSync": false,
     "editor.insertSpaces": true,
     "window.zoomLevel": 0,
-    "materialTheme.fixIconsRunning": false,
     "workbench.startupEditor": "newUntitledFile",
-    "vim.easymotion": true
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.incsearch": true,
+    "vim.hlsearch": true,
+    "keyboard.dispatch": "keyCode"
 }
