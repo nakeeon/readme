@@ -5,11 +5,11 @@
     "editor.formatOnPaste": false,
     "editor.fontSize": 15,
     "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "prettier.eslintIntegration": true,
     "editor.formatOnSave": true,
     "[html]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": false
     },
     "prettier.trailingComma": "all",
     "prettier.semi": false,
@@ -26,4 +26,7 @@
     "git.confirmSync": false,
     "editor.insertSpaces": true,
     "window.zoomLevel": 0,
+    "materialTheme.fixIconsRunning": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "vim.easymotion": true
 }
