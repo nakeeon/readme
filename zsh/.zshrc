@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/nakee/.oh-my-zsh
+  export ZSH=//.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -96,6 +96,7 @@ source ~/.zplug/init.zsh
 
 zplug "momo-lab/zsh-abbrev-alias"
 zplug "wwilsman/zsh-clean-project"
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -116,3 +117,4 @@ ZSH_HIGHLIGHT_STYLES[command]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[command_prefix]='fg=blue'
 ZSH_HIGHLIGHT_STYLES[builtin]='fg=cyan'
 ZSH_HIGHLIGHT_STYLES[arg0]='fg=blue'
+
