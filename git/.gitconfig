@@ -1,0 +1,8 @@
+[user]
+        name = Nazar Kaluzghnyy
+        email = kaluzghnyy@gmail.com
+[core]
+        editor = vim
+[alias]
+        last = log -1
+        today = shortlog --since="6am"
