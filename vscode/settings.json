@@ -1,0 +1,29 @@
+{
+    "python.pythonPath": "/usr/local/bin/python3",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.fontSize": 15,
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "prettier.eslintIntegration": true,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "prettier.trailingComma": "all",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.rulers": [
+        79,
+    ],
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "git.confirmSync": false,
+    "editor.insertSpaces": true,
+    "window.zoomLevel": 0,
+}
