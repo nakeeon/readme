@@ -1,38 +1,38 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3",
-    "atomKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": false,
-    "editor.fontSize": 15,
-    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "prettier.eslintIntegration": true,
-    "editor.formatOnSave": true,
-    "[html]": {
-        "editor.formatOnSave": false,
-        "editor.tabSize": 4
-    },
-    "[markdown]": {
-        "editor.formatOnSave": false
-    },
-    "prettier.trailingComma": "all",
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "workbench.colorTheme": "Atom One Dark",
-    "editor.rulers": [
-        79,
-    ],
-    "files.autoSave": "onFocusChange",
-    "git.autofetch": true,
-    "files.associations": {
-        "*.js": "javascriptreact"
-    },
-    "git.confirmSync": false,
-    "editor.insertSpaces": true,
-    "window.zoomLevel": 0,
-    "materialTheme.fixIconsRunning": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
+  "python.pythonPath": "/usr/bin/python3.6",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.rulers": [79],
+  "files.autoSave": "onFocusChange",
+  "git.autofetch": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "git.confirmSync": false,
+  "editor.insertSpaces": true,
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "keyboard.dispatch": "keyCode"
 }
