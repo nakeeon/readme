@@ -1,15 +1,30 @@
 {
+  "vim.easymotion": true,
   "python.pythonPath": "/usr/bin/python3.6",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": false,
+  "editor.formatOnPaste": true,
   "editor.fontSize": 14,
-  "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "/home/ddi-dev/.local/bin/pylint",
+  "python.linting.pylintArgs": [
+    "--disable=E0401,C0111,R0903,R1710,W0201,E0213,C0103,W0703,R0201,W0613,W0212,W0221"
+  ],
+  "editor.fontFamily": "Droid Sans Mono, 'monospace', monospace, 'Droid Sans Fallback'",
   "workbench.iconTheme": "material-icon-theme",
-  "prettier.eslintIntegration": true,
+  "prettier.eslintIntegration": false,
   "editor.formatOnSave": true,
   "[html]": {
     "editor.formatOnSave": false,
-    "editor.tabSize": 4
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
   },
   "[markdown]": {
     "editor.formatOnSave": false
@@ -17,12 +32,15 @@
   "prettier.trailingComma": "all",
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "workbench.colorTheme": "Atom One Dark",
-  "editor.rulers": [79],
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.rulers": [
+    79
+  ],
   "files.autoSave": "onFocusChange",
   "git.autofetch": true,
   "files.associations": {
-    "*.js": "javascriptreact"
+    "*.js": "javascriptreact",
+    "*.vue": "vue"
   },
   "git.confirmSync": false,
   "editor.insertSpaces": true,
@@ -31,8 +49,45 @@
   "[javascript]": {
     "editor.tabSize": 2
   },
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.enabled": true,
-  "keyboard.dispatch": "keyCode"
+  "keyboard.dispatch": "keyCode",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.validation.style": true,
+  "vetur.validation.template": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "python.jediEnabled": false,
+  "todohighlight.isEnable": true,
+  "gitlens.menus": {
+    "editorGroup": {
+      "blame": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorTab": {
+      "compare": false,
+      "history": false,
+      "remote": true
+    },
+    "explorer": {
+      "compare": true,
+      "history": true,
+      "remote": true
+    }
+  },
+  "gitlens.codeLens.enabled": false,
 }
