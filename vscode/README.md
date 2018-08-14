@@ -9,3 +9,5 @@
 - TSLint
 - Vim
 - vscode-icons
+- Vetur
+- GitLens
